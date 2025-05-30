@@ -1,0 +1,63 @@
+/* reset no corpo da pagina inteira  */
+body {
+    margin: 1;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* cabeça/topp */
+header {
+    background-color: #003366; /*cor do fundo */
+    color: white; /*cor do texto: branco*/
+    padding: 20px; /*espacamento do conteudo com a margem */
+    border-radius: 5px 5px 0 0;
+    text-align: center; /*texto ao meio */
+}
+
+/*nav que esta dentro do header */
+nav a {
+    color: white; /*branco*/
+    margin: 0 10px; /*margem topo e sobre 0, esq/direita 10px*/ 
+    text-decoration: none; /*tirar a linha padrao de link */
+}
+
+/* style do conteudo  */
+main {
+    padding: 20px; /*espacamento do conteudo com a margem */
+}
+
+/* seçoes dos noticias e eventos */
+section {
+    margin-bottom: 40px; /*margem sobre as seçoes*/
+}
+
+/*todos os h2 da pagina */
+h2 {
+    /* borda sobre 2px de espessura, solid:para mostrar e cor */
+    border-bottom: 2px solid #ccc; 
+    padding-bottom: 10px; /*espacanto da borda sobre h2*/
+}
+
+/*class: Cards */
+.card {
+    background-color:#f9f9f9; 
+    border: solid 1px #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px; /*arredonda os cantos */
+}
+
+/* imagem de dentro do card */
+.card img {
+    max-width: 100%; /*n ultrapassa alargura do elemento pai (card)*/
+    height: auto; /*a altura ajustara automaticamente, para n destorcer a imagem */
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #003366; /*cor do fundo */
+    color: white; /*cor do texto: branco*/
+    padding: 1px; /*espacamento do conteudo com a margem */
+    border-radius:  0 0 5px 5px;
+    text-align: center; /*texto ao meio */
+}
