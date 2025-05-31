@@ -10,9 +10,9 @@
     <header>
         <h1> Notícia & Eventos</h1>
         <nav>
-            <a href="noticias.html">Notícia</a>
-            <a href="eventos.html">Eventos</a>
-            <a href="adm.html">Administrativo</a>
+            <a href="?page=noticias">Notícia</a>
+            <a href="?page=eveto">Eventos</a>
+            <a href="?page=adm">Administrativo</a>
         </nav>
     </header>
 

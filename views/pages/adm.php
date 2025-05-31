@@ -30,9 +30,9 @@
     <header>
         <h1> Administrativo </h1>
         <nav>
-            <a href="index.html"> Home </a>
-            <a href="noticias.html">Noticias</a>
-            <a href="eventos.html">Eventos</a>
+            <a href="?page=index"> Home </a>
+            <a href="?page=noticias">Noticias</a>
+            <a href="?page=eventos">Eventos</a>
         </nav>
     </header>
 
