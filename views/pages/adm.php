@@ -39,7 +39,8 @@
     <main>
         <h2 style="text-align: center;" > Cadastrar Noticias e Eventos </h2>
 
-        <form action="" method="post">
+        <!-- form para salvar noticias  -->
+        <form action="index.php?page=salvar" method="post">
             <label for="titulo"> Título:</label>
             <input type="text" id="titulo" name="titulo" required>
 
@@ -56,10 +57,9 @@
             <input type="text" name="imagem" id="imagem">
 
             <label for="data">Data:</label>
-            <input type="data" id="data" name="data">
+            <input type="date" id="data" name="data">
 
             <button type="submit">Cadastrar</button>
-            
         </form>
     </main>
 </body>
