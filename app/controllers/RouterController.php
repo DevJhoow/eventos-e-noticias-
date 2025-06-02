@@ -29,6 +29,20 @@ class RouterController
                 $noticiaModel->salvarNoticia();
                 break;
 
+            case 'deletar':
+                if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['id'])) {
+                    $id = $_POST['id'];
+                    $deletou = NoticiaModel::deletarNoticia($id);
+
+                    if ($deletou) {
+                        header("Location: ?page=index");
+                        exit;
+                    } else {
+                        echo "Erro ao deletar notícia.";
+                    }
+                }
+                break;
+    
             default:
                 require_once $rota . 'noticias.php';
                 break;

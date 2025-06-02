@@ -56,9 +56,6 @@
             <label for="image">URL da imagem</label>
             <input type="text" name="imagem" id="imagem">
 
-            <label for="data">Data:</label>
-            <input type="date" id="data" name="data">
-
             <button type="submit">Cadastrar</button>
         </form>
     </main>
